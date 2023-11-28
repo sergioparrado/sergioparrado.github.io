@@ -37,14 +37,12 @@ h1 {
 }
 
 .container {
-    max-width: 430px;
     margin: auto;
 }
 
 /* Header y Above */
 
 .headerAbove {
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,13 +54,15 @@ h1 {
 url("img/pexels-fauxels-3184669.webp");
 }
 
+.contHeaderAbove {
+    width: 100%;
+}
 
 /* Above y header */
     /* Header */
 
 .header {
     margin: 5px;
-    width:90%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -109,12 +109,14 @@ url("img/pexels-fauxels-3184669.webp");
 }
 
 .header img {
-    width: 14em;
+    width: 200px;
     padding-bottom: 20px;
 }
 
 /* Secccion1 | Above */
-
+.textoAbove {
+    width: 100%;
+}
 
 .textoAbove h1 {
     color: rgb(0, 0, 0);
@@ -147,6 +149,7 @@ url("img/pexels-fauxels-3184669.webp");
 }
 
 .contAbove {
+    margin: auto;
     margin: 90px 20px;
     height: 30em;
     display: flex;
@@ -264,7 +267,7 @@ url("img/pexels-fauxels-3184669.webp");
     margin: auto;
     margin-top:1em ;
     margin-bottom: 1em;
-    width: 300px;
+    width: 70%;
     padding: 2em;
     justify-items: center;
     align-items: center;
@@ -274,7 +277,7 @@ url("img/pexels-fauxels-3184669.webp");
 }
 
 #planes:hover {
-    width: 320px;
+    width: 70.5%;
     box-shadow: 2px 2px 25px rgba(0, 0,0,0.5);
     transition: box-shadow  0.5s ease;
     transition: width  0.3s ease;
@@ -386,7 +389,7 @@ url("img/pexels-fauxels-3184669.webp");
 
  /* Diseño Desktop friendly */
 
- @media screen  and (min-width:700px) {
+ @media screen  and (min-width:720px) {
 
     h1 {
         font-size: 50px;
@@ -396,6 +399,13 @@ url("img/pexels-fauxels-3184669.webp");
     }
     ul {
     font-size: 16px;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    a::before , a:active, a:after{
+        text-decoration: none;
     }
 
    .container {
