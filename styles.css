@@ -15,10 +15,10 @@ body p{
     font-size: 16px;
 }
 h2 {
-    font-size: 35px;
+    font-size: 25px;
 }
 h3 {
-    font-size: 25px;
+    font-size: 18px;
 }
 ul {
     font-size: 16px;
@@ -165,7 +165,7 @@ url("img/pexels-fauxels-3184669.webp");
     margin: auto;
 }
 #contSeccion2 {
-    margin: 50px auto;
+    margin: 50px 20px;
     justify-content: center;
     align-items: center;
     background-color: var(--claro);
@@ -248,9 +248,8 @@ url("img/pexels-fauxels-3184669.webp");
 
 #vistazo {
     text-align: center;
-    font-size: 2em;
     color: var(--contraste);
-    margin: 0.5em 0em 3em 0em;
+    margin: 1em 0em 5em 0em;
 }
 /* Seccion 3-2 | Content Creator */
 
@@ -328,7 +327,7 @@ url("img/pexels-fauxels-3184669.webp");
 }
 
 .seccion4 {
-    height: 50em;
+    height: 30em;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -342,7 +341,7 @@ url("img/pexels-fauxels-3184669.webp");
 
 .seccion4 p {
     color: white;
-    font-size: 1.3em;
+    font-size: 14px;
     margin-bottom: 30px;
 }
  .seccion4 {
